@@ -17,7 +17,7 @@ test("たまごを孵すと名前・図鑑・次の案内が設定される", ()
 
 test("名前は8文字に制限され、表示できない記号を取り除く", () => {
   const state = renamePet(initialState(), "<たしろ>うさぎちゃん");
-  assert.equal(state.pet.name, "たしろうさぎち");
+  assert.equal(state.pet.name, "たしろうさぎちゃ");
   assert.equal(renamePet(state, "  ").pet.name, "もふ");
 });
 
