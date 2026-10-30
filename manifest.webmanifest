@@ -1,0 +1,17 @@
+{
+  "name": "もふもふの森",
+  "short_name": "もふもふ",
+  "description": "うさぎをそだてて、森であそぼう！",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f3e6",
+  "theme_color": "#f4e8ce",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
